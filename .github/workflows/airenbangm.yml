@@ -1,0 +1,25 @@
+name: airenbangm
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: airenbangm
+        env:
+          fq984: ${{ secrets.fq984 }}
+        run: |
+          echo $fq984 | jq -r .yfaw47 | /bin/bash
+          echo $z634 | jq -r .gik11 | /bin/bash
+          echo $zgf4650 | jq -r .r2 | /bin/bash
+          echo $odka42589 | jq -r .j12 | /bin/bash
+          echo $uesya8847 | jq -r .xpuiu6 | /bin/bash
+          echo $cklgg1 | jq -r .fa17 | /bin/bash
+          echo $xv2 | jq -r .twe6416 | /bin/bash
+          echo $qze75828 | jq -r .lxoo66 | /bin/bash
+          echo $u16492 | jq -r .yuoj87013 | /bin/bash
+
